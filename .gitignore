@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+Thumbs.db
+bower_components/
+build/
+build/*
+build/*.html
+build/*.css
+build/*.js
+npm-debug.log
+.sass-cache
+*.css.map
+.idea/
+*.iml
+*.ipr
+*.iws
+idea.properties

@@ -1,0 +1,27 @@
+{
+  "name": "learnjavascript",
+  "version": "1.0.0",
+  "description": "Learning js with zell liew",
+  "main": "all.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "davidjost",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.5"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidjost/jsf.git"
+  },
+  "keywords": [
+    "js",
+    "learning"
+  ],
+  "bugs": {
+    "url": "https://github.com/davidjost/jsf/issues"
+  },
+  "homepage": "https://github.com/davidjost/jsf#readme"
+}
