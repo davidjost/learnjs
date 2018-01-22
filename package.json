@@ -14,14 +14,14 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidjost/jsf.git"
+    "url": "git+https://github.com/davidjost/learnjs.git"
   },
   "keywords": [
     "js",
     "learning"
   ],
   "bugs": {
-    "url": "https://github.com/davidjost/jsf/issues"
+    "url": "https://github.com/davidjost/learnjs/issues"
   },
-  "homepage": "https://github.com/davidjost/jsf#readme"
+  "homepage": "https://github.com/davidjost/learnjs#readme"
 }
