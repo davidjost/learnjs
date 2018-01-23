@@ -1,3 +1,5 @@
+// browser-sync start --server --files "*" --startPath "/src"
+
 // string
 console.log('this is a string')
 
@@ -9,3 +11,6 @@ console.log(23434)
 
 // adding numbers
 console.log(2324234 + 34234)
+
+// subtracting numbers
+console.log(34324 - 31234)
