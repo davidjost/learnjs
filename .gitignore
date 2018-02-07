@@ -7,7 +7,7 @@ build/*
 build/*.html
 build/*.css
 build/*.js
-dist/*
+dist/
 npm-debug.log
 .sass-cache
 *.css.map
