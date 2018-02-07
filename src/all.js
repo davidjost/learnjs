@@ -1,8 +1,4 @@
 // browser-sync start --server 'src' --files 'src'
-<<<<<<< HEAD
-=======
-// ------------------------------------ lesson 01 - basics
->>>>>>> 0e9b7e8f1bdbeb00df4d4cf43ae69ebd4ae95a41
 
 // --------------------------------------------lesson 03
 // string
@@ -15,13 +11,6 @@ console.log('string 1' + ' string 2')
 console.log('number: ' + 23434)
 
 // adding numbers
-<<<<<<< HEAD
-=======
-console.log(2324234 + 34234)
-
-// subtracting numbers
-console.log(34324 - 31234)
->>>>>>> 0e9b7e8f1bdbeb00df4d4cf43ae69ebd4ae95a41
 const adding = 2 + 3
 console.log('adding: ' + adding)
 
@@ -41,46 +30,78 @@ console.log('division: ' + division)
 const bool = true
 console.log(bool)
 
-<<<<<<< HEAD
 // --------------------------------------------lesson 07
-=======
-// ------------------------------------ lesson 07 - functions
 
-function sayName (firstName, lastName) {
-  console.log('First name: ' + firstName)
-  console.log('Last name: ' + lastName)
+// declaring a function
+function sayHello (param1, param2, param3) {
+  console.log('I\'m gonna say: ' + param1 + param2 + param3)
 }
-sayName('david', 'jost')
 
-function get2 () {
-  return 'sefsdfsdf'
-  console.log('blah')
-}
-const results = get2()
-console.log(results) // so bekommt man ergebnisse aus dem function scope raus
+// using function
+sayHello('hello ', 'World', '!')
 
-function add2 (num) {
+// returns
+function get2 (num) {
   return num + 2
 }
-const number = add2(8)
-console.log(number)
 
-// excercises
+const results = get2(8)
+console.log(results)
 
-function logger (toLog) {
-  console.log(toLog)
+// function expressions
+const sayExpression = function () {
+  console.log('aFunction')
 }
-logger('tree')
 
-function add (num1, num2) {
-  return num1 + num2
-}
-const addResult = add(2, 2)
-console.log(addResult)
+sayExpression()
 
-function multy (num1, num2) {
-  return num1 * num2
+// add function
+function add2 (num1, num2) {
+  const result = num1 + num2
+  console.log(result)
 }
-const multyResult = multy(2, 4)
-console.log(multyResult)
->>>>>>> 0e9b7e8f1bdbeb00df4d4cf43ae69ebd4ae95a41
+
+add2(2, 2)
+
+// multiply function
+function mult2 (num1, num2) {
+  const result = num1 * num2
+  console.log(result)
+}
+
+mult2(4, 2)
+
+// --------------------------------------------lesson 08
+
+// Arrow function
+const arrowFunction = (arg1, arg2) => {
+  const result = arg1 + arg2
+  console.log(result)
+}
+
+arrowFunction(1, 2)
+
+const sumArrow = (num1, num2) => num1 + num2
+console.log(sumArrow(4, 5))
+
+// exercises
+const ten = () => { return 5 + 5 }
+console.log(ten())
+
+const twelve = _ => { return 6 + 6 }
+console.log(twelve())
+
+const logger = arg1 => console.log(arg1)
+logger('loggin')
+
+const loggerPars = (arg1) => console.log(arg1)
+loggerPars('logginPars')
+
+const addNonImplicit = (num1, num2) => {
+  const result = num1 + num2
+  console.log(result)
+}
+addNonImplicit(5, 4)
+
+const addImplicit = (num1, num2) => num1 + num2
+console.log(addImplicit(2, 5))
